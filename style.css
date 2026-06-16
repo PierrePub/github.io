@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background: #111;
+  background: radial-gradient(#36A9E1, #166CAC);
   color: white;
   padding: 60px 20px;
   text-align: center;
