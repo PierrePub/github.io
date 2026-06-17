@@ -42,13 +42,6 @@
     opacity: 0.25;
 }
 
-    position: sticky;
-    overflow: hidden;
-    
-    padding: 25px 20px;
-    text-align: center;
-}
-
 /* Contenu */
 .header-content {
     max-width: 1000px;
