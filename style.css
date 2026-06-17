@@ -6,18 +6,25 @@
     top: 0;
     z-index: 1000;
 
-    background:
-radial-gradient(
-    circle at top,
-    rgba(255,255,255,0.18),
-    transparent 45%
-),
-linear-gradient(
-    135deg,
-    #00A7E3,
-    #005B96
-);
+    padding: 25px 20px;
+    text-align: center;
 
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at top,
+            rgba(255,255,255,0.18),
+            transparent 45%
+        ),
+        linear-gradient(
+            135deg,
+            #00A7E3,
+            #005B96
+        );
+}
+
+/* texture papier */
 .header::before {
     content: "";
     position: absolute;
