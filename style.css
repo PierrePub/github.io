@@ -6,6 +6,8 @@
     top: 0;
     z-index: 1000;
 
+    position: relative;
+
     padding: 25px 20px;
     text-align: center;
 
@@ -97,6 +99,8 @@
     border-radius: 50px;
 
     transition: all 0.3s ease;
+
+    cursor: pointer;
 }
 
 .btn-premium:hover {
