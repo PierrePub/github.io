@@ -6,11 +6,10 @@
     top: 0;
     z-index: 1000;
 
-    background: linear-gradient(
-    135deg,
+    background: radial-gradient(
+    circle at center,
     #00A7E3,
-    #007CBA,
-    #004E7A
+    #007CBA
 );
 
     padding: 25px 20px;
