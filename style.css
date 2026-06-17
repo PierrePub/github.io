@@ -225,7 +225,7 @@
     position: absolute;
     inset: 0;
     background: rgba(0,0,0,0.45);
-    border-radius: 18px;
+    border-radius: 15px;
 }
 
 /* contenu au-dessus du filtre */
