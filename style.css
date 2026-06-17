@@ -188,6 +188,9 @@
     box-shadow: 0 15px 35px rgba(0,0,0,0.15);
 }
 
+.service-card.textile:hover {
+    transform: translateY(-10px) scale(1.02);
+}
 .service-card h3 {
     color: #005B96;
     margin-bottom: 15px;
@@ -195,4 +198,33 @@
 
 .service-card p {
     line-height: 1.6;
+}
+
+/* ===== CARTE AVEC IMAGE DE FOND (TEXTILE) ===== */
+
+.service-card.textile {
+    background-image: url("images/textiles.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* filtre sombre pour lisibilité */
+.service-card.textile::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    border-radius: 18px;
+}
+
+/* contenu au-dessus du filtre */
+.service-card.textile h3,
+.service-card.textile p {
+    position: relative;
+    z-index: 2;
+    color: white;
 }
