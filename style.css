@@ -7,9 +7,14 @@
     z-index: 1000;
 
     background: radial-gradient(
-    circle at center,
+    circle at top,
+    rgba(255,255,255,0.25),
+    transparent 40%
+),
+linear-gradient(
+    135deg,
     #00A7E3,
-    #007CBA
+    #005B96
 );
 
     padding: 25px 20px;
