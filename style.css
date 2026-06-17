@@ -5,6 +5,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+    
     position: relative;
 
     padding: 25px 20px;
@@ -56,6 +57,8 @@
     max-width: 80%;
     margin-bottom: 10px;
     transition: transform 0.3s ease;
+
+    cursor: pointer;
 }
 
 .logo:hover {
@@ -119,4 +122,21 @@
         opacity: 1;
         transform: translateY(0);
     }
+
+/* ===== RESPONSIVE MOBILE ===== */
+@media (max-width: 768px) {
+    .logo {
+        width: 140px;
+    }
+
+    .slogan {
+        font-size: 1.6rem;
+    }
+
+    .btn-premium {
+        padding: 10px 20px;
+    }
 }
+
+}
+
