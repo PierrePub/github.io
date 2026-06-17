@@ -47,7 +47,7 @@ linear-gradient(
     text-transform: uppercase;
     color: white;
 
-    text-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    text-shadow: 0 5px 15px rgba(0,0,0,0.35);
 
     animation: fadeInUp 1s ease-out;
     margin: 10px 0;
