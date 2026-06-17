@@ -194,6 +194,10 @@
     transform: translateY(-10px) scale(1.02);
 }
 .service-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
     color: #005B96;
     margin-bottom: 15px;
 }
