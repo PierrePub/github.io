@@ -13,8 +13,8 @@ header {
 }
 
 .logo {
-    max-width: 80%;
-    margin-bottom: 20px;
+    width: 250px;
+    height: auto;
 }
 
 .btn {
