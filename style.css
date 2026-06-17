@@ -12,6 +12,12 @@ header {
   text-align: center;
 }
 
+.logo {
+    width: 180px;
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
 .btn {
   display: inline-block;
   margin-top: 15px;
