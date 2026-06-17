@@ -24,7 +24,11 @@ header {
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
 
 .btn {
   display: inline-block;
