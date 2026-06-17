@@ -126,6 +126,10 @@
 
 /* ===== RESPONSIVE MOBILE ===== */
 @media (max-width: 768px) {
+     .header {
+        padding: 18px 15px;
+     }
+    
     .logo {
         width: 140px;
     }
