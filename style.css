@@ -202,7 +202,7 @@
 /* ===== CARTE AVEC IMAGE DE FOND (TEXTILE) ===== */
 
 .service-card.textile {
-    background-image: url("images/textiles.jpeg");
+    background-image: url("images/Textiles.jpeg");
     background-size: cover;
     background-position: center;
     color: white;
