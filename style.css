@@ -112,6 +112,11 @@
     transform: scale(1.05);
 }
 
+.btn-premium:active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
+}
+
 /* ANIMATION SLOGAN */
 @keyframes fadeInUp {
     from {
